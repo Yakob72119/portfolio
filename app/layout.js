@@ -1,6 +1,7 @@
 
 import './globals.css';
 import Providers from './theme-provider';
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: 'Yakob Beshahwered | Full-Stack Developer',
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
       <body className="font-sans">
         <Providers>
           {children}
+          <Analytics />
         </Providers>
       </body>
     </html>
