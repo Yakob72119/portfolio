@@ -3,7 +3,7 @@ import './globals.css';
 import Providers from './theme-provider';
 
 export const metadata = {
-  title: 'Yakob Beshahwered | Full-Stack Developer & Software Engineer',
+  title: 'Yakob Beshahwered | Full-Stack Developer',
   description:
     'I’m Yakob Beshahwered, a passionate full-stack developer specializing in Next.js, JavaScript, MongoDB, and Tailwind CSS. Explore my portfolio, projects, and professional experience.',
   keywords: [
@@ -23,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: 'Yakob Beshahwered Portfolio',
     description:
-      'Explore Yakob Beshahwered’s projects, skills, and professional experience in full-stack development using Next.js, MongoDB, and Tailwind CSS.',
+      'Explore Yakob Beshahwered’s projects, skills, and professional experience in full-stack development.',
     url: 'https://yourdomain.com', // Replace with your real deployed domain
     siteName: 'Yakob Beshahwered Portfolio',
     images: [
